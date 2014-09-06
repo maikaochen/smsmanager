@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">短信智能分类管理器</string>
+    <string name="conversation">会话</string>
+    <string name="folder">文件夹</string>
+    <string name="group">群组</string>
+    <string name="new_msg">新建信息</string>
+    <string name="all_select">全选</string>
+    <string name="cancel_selected">取消选择</string>
+    <string name="conversation_empty">会话为空</string>
+    <string name="delete">删除</string>
+    <string name="search">搜索</string>
+    <string name="back">返回</string>
+    <string name="delete_alert">您确定要删除选中的会话吗？</string>
+    <string name="conversation_detail">会话详情</string>
+    <string name="send">发送</string>
+    <string name="send_at">发送于：</string>
+    <string name="receive_at">接收于：</string>
+    <string name="receiver">收件人：</string>
+    <string name="please_enter_number">请输入电话号码</string>
+    <string name="please_enter_msg">请输入短信内容！！！</string>
+    <string name="success_send_sms">短信发送成功</string>
+    <string name="inbox">收件箱</string>
+    <string name="outbox">发送箱</string>
+    <string name="sent">已发送</string>
+    <string name="draft">草稿箱</string>
+    <string name="sms_detail">短信详情</string>
+    <string name="new_group">新建群组</string>
+    <string name="group_name_is_null">群组的名称不能为空</string>
+    <string name="exist_group">群组已经存在</string>
+    <string name="success_create_group">群组已经创建</string>
+    <string name="select_collection_group">选择收藏群组</string>
+    <string name="please_create_group">请先创建群组</string>
+    <string name="exist_collection_group">会话已经存在于该群组</string>
+    <string name="success_collection_group">会话收藏成功</string>
+    <string name="no_collection_convesation">该群组没有收藏会话</string>
+    <string name="sms_search">短信搜索</string>
+
+</resources>

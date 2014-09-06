@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+
+    <include layout="@layout/new_msg_button"/>
+    
+    <LinearLayout android:id="@+id/edit"
+        android:layout_width="fill_parent"
+        android:layout_height="55px"
+        android:orientation="horizontal">
+        <Button android:id="@+id/bt_all_select"
+            android:layout_width="131px"
+            android:layout_height="44px"
+            android:layout_marginLeft="22px"
+            android:layout_gravity="center_vertical"
+            android:text="@string/all_select"/>
+        
+        <Button android:id="@+id/bt_cancel_selected"
+            android:layout_width="131px"
+            android:layout_height="44px"
+            android:layout_marginLeft="15px"
+            android:layout_gravity="center_vertical"
+            android:text="@string/cancel_selected"/> 
+    </LinearLayout>
+    
+        
+    <View android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@drawable/list_line"/>
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        
+        <ListView android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />f
+        
+        <TextView android:id="@+id/empty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/conversation_empty"/>
+        
+    </LinearLayout>
+
+        
+    <Button android:id="@+id/bt_delete"
+        android:layout_width="240px"
+        android:layout_height="40px"
+        android:layout_gravity="center"
+        android:text="@string/delete"/>
+</LinearLayout>

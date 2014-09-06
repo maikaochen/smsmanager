@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <ImageView android:id="@+id/header"
+            android:layout_width="52px"
+            android:layout_height="52px"
+            android:layout_margin="7px"/>
+        
+        <TextView android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/header"
+            android:textSize="20sp"/>
+        
+        <TextView android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/header"
+            android:layout_below="@id/tv_name"
+            android:textSize="14sp"/>
+        
+    </RelativeLayout>
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7px"
+           />
+        
+        <TextView android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7px"
+           />
+    </LinearLayout>
+    
+   <!-- 短信内容 -->
+   <TextView android:id="@+id/tv_body"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_margin="7px"
+      />
+</LinearLayout>
